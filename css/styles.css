@@ -1,0 +1,51 @@
+div.container-fluid{
+  padding: 0;
+}
+div.card{
+  width: 100%;
+  border: 0;
+  background-color: #ba1c1c;
+  border-radius: 0;
+  padding: 0;
+}
+div.card-body{
+  padding: 20 auto 0;
+}
+div.text-center.d-flex.align-items-center{
+  padding: 0;
+}
+div.second{
+  width: 60%;
+}
+p.card-text{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 23px;
+  line-height: 23px;
+  color: #ffffff;
+}
+p.text{
+  padding-bottom: 10px;
+  font-family: 'Inknut Antiqua', serif;
+  line-height: 30px;
+}
+p.person{
+  padding-bottom: 20px;
+  font-family: 'Work Sans', sans-serif;
+}
+@media (max-width:650px){
+  iframe{
+    width: 450px;
+    height: 300px;
+  }
+  div.card-body{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media (max-width:500px){
+  iframe{
+    width: auto;
+    height: auto;
+  }
+}
